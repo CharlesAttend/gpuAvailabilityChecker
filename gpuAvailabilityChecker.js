@@ -45,8 +45,8 @@ const initialGpuCards = [
   },
 ];
 
-const selectedRegion = "fr-fr";
 require('dotenv').config();
+const selectedRegion = process.env.REGION;
 const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
 const userid1 = process.env.USER_ID_1;
 const userid2 = process.env.USER_ID_2;
