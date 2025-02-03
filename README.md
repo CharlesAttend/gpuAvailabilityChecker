@@ -1,5 +1,10 @@
 # GPU Availability Checker
 
+---
+Check [this repos](https://github.com/oelcode/50FE-Stock-Ping) for more functionality !
+---
+
+
 This project is a Node.js application that checks the availability of specific GPU models from the NVIDIA store and sends notifications to a Discord channel when they are in stock.
 
 ## Features
